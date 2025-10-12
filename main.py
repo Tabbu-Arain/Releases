@@ -63,14 +63,13 @@ apk_list = [
         "description": "Latest release version",
         "category": "Social",
         "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/10th-Fb-Lite/Lite.11.apk"
+    }
+    {
+        "name": "Termux",
+        "description": "Latest Termux version",
+        "category": "Programing",
+        "url": "github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/termux/com.termux_1020.apk"
     },
-    # Add more APKs here as needed - examples:
-    # {
-    #     "name": "WhatsApp Mod",
-    #     "description": "Enhanced WhatsApp with extra features",
-    #     "category": "Communication",
-    #     "url": "your-github-release-url-here"
-    # },
 ]
 
 @app.route('/')
