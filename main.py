@@ -76,6 +76,12 @@ apk_list = [
         "category": "Messaging",
         "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/Safeum/SafeUm_Gold.apk"
     },
+    {
+        "name": "SafeUm VIP",
+        "description": "Safeum Blue Unlocked",
+        "category": "Messaging",
+        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/Safeum-v2/SafeUm_Vip.apk"
+    },
 ]
 
 @app.route('/')
