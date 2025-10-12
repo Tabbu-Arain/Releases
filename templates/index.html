@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APKS by Tabbu</title>
+    <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByeD0iNCIgZmlsbD0iIzAwMDAwMCIvPgo8cmVjdCB4PSI4IiB5PSI4IiB3aWR0aD0iMTYiIGhlaWdodD0iNCIgZmlsbD0iIzAwZDRmZiIvPgo8cmVjdCB4PSIxNCIgeT0iMTIiIHdpZHRoPSI0IiBoZWlnaHQ9IjE2IiBmaWxsPSIjMDBkNGZmIi8+Cjwvc3ZnPg==">
+    
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/css1/styles.css') }}">
+</head>
+<body>
+    <!-- Particle.js Background -->
+    <div id="particles-js"></div>
+    
+    <!-- Fixed Header -->
+    <header class="fixed-header">
+        <div class="header-left">
+            <i class="fab fa-android header-android-icon"></i>
+            <span class="header-title">APK DOWNLOAD HUB</span>
+        </div>
+        <div class="header-center">
+            <span class="header-owner">𝐎𝐖𝐍𝐄𝐑 ⁑ 𝐓𝐀𝐁𝐁𝐔 𝐀𝐑𝐀𝐈𝐍</span>
+        </div>
+        <div class="header-right">
+            <a href="https://wa.me/994402197773" target="_blank" class="header-social-btn whatsapp">
+                <i class="fab fa-whatsapp"></i>
+                <span class="social-name">WhatsApp</span>
+            </a>
+            <a href="https://facebook.com/TabbuArain" target="_blank" class="header-social-btn facebook">
+                <i class="fab fa-facebook-f"></i>
+                <span class="social-name">Facebook</span>
+            </a>
+            <a href="https://www.github.com/Tabbu-Arain" target="_blank" class="header-social-btn github">
+                <i class="fab fa-github"></i>
+                <span class="social-name">GitHub</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Warning Badge -->
+    <div class="warning-badge">
+        <i class="fas fa-exclamation-triangle"></i>
+        <span>All apps are provided for educational purposes only</span>
+    </div>
+
+    <!-- Main Container -->
+    <div class="container">
+
+        <!-- APK Cards Grid -->
+        <div class="apk-grid">
+            {% for apk in apk_list %}
+            <div class="glass-card">
+                <div class="card-header">
+                    <i class="fab fa-android android-icon"></i>
+                    <div class="card-title-wrapper">
+                        <h3 class="card-title">{{ apk.name }}</h3>
+                        <span class="category-badge">{{ apk.category }}</span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p class="app-description">{{ apk.description }}</p>
+                    <button class="download-btn" data-url="{{ apk.url }}">
+                        <i class="fas fa-cloud-download-alt"></i>
+                        <span>Download Now</span>
+                        <i class="fas fa-arrow-right arrow-icon"></i>
+                    </button>
+                    <div class="progress-container" style="display: none;">
+                        <div class="progress-bar"></div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Safe & Verified</span>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p class="footer-note">Stay updated with the latest APK releases</p>
+        </footer>
+    </div>
+
+    <!-- Particle.js CDN -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="{{ url_for('static', filename='js/js1/app.js') }}"></script>
+</body>
+</html>
