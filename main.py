@@ -1,0 +1,81 @@
+from flask import Flask, render_template
+
+app = Flask(__name__)
+
+# APK data - You can easily add/remove apps here
+apk_list = [
+    {
+        "name": "FB Lite 2",
+        "description": "Lightweight Facebook client",
+        "category": "Social",
+        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/1st-Fb-Lite/Lite.2.apk"
+    },
+    {
+        "name": "FB Lite 3",
+        "description": "Enhanced Facebook experience",
+        "category": "Social",
+        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/2nd-Fb-Lite/Lite.3.apk"
+    },
+    {
+        "name": "FB Lite 4",
+        "description": "Updated Facebook version",
+        "category": "Social",
+        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/3rd-Fb-Lite/Lite.4.apk"
+    },
+    {
+        "name": "FB Lite 5",
+        "description": "Latest Facebook lite",
+        "category": "Social",
+        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/4th-Fb-Lite/Lite.5.apk"
+    },
+    {
+        "name": "FB Lite 6",
+        "description": "Premium Facebook mod",
+        "category": "Social",
+        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/5th-Fb-Lite/Lite.6.apk"
+    },
+    {
+        "name": "FB Lite 7",
+        "description": "Advanced features included",
+        "category": "Social",
+        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/6th-Fb-Lite/Lite.7.apk"
+    },
+    {
+        "name": "FB Lite 8",
+        "description": "Optimized performance",
+        "category": "Social",
+        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/7th-Fb-Lite/Lite.8.apk"
+    },
+    {
+        "name": "FB Lite 9",
+        "description": "New UI improvements",
+        "category": "Social",
+        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/8th-Fb-Lite/Lite.9.apk"
+    },
+    {
+        "name": "FB Lite 10",
+        "description": "Enhanced stability",
+        "category": "Social",
+        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/9th-Fb-Lite/Lite.10.apk"
+    },
+    {
+        "name": "FB Lite 11",
+        "description": "Latest release version",
+        "category": "Social",
+        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/10th-Fb-Lite/Lite.11.apk"
+    },
+    # Add more APKs here as needed - examples:
+    # {
+    #     "name": "WhatsApp Mod",
+    #     "description": "Enhanced WhatsApp with extra features",
+    #     "category": "Communication",
+    #     "url": "your-github-release-url-here"
+    # },
+]
+
+@app.route('/')
+def home():
+    return render_template('index.html', apk_list=apk_list)
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000, debug=True)
