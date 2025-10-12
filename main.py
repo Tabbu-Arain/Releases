@@ -68,7 +68,7 @@ apk_list = [
         "name": "Termux",
         "description": "Latest Termux version",
         "category": "Programing",
-        "url": "github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/termux/com.termux_1020.apk"
+        "url": "https://wwww.github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/termux/com.termux_1020.apk"
     },
 ]
 
