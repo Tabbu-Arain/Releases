@@ -70,6 +70,12 @@ apk_list = [
         "category": "Programing",
         "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/termux/com.termux_1020.apk"
     },
+    {
+        "name": "SafeUm Gold",
+        "description": "Safeum Premium App",
+        "category": "Messaging",
+        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/Safeum/SafeUm_Gold.apk"
+    },
 ]
 
 @app.route('/')
