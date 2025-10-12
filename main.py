@@ -63,7 +63,7 @@ apk_list = [
         "description": "Latest release version",
         "category": "Social",
         "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/10th-Fb-Lite/Lite.11.apk"
-    }
+    },
     {
         "name": "Termux",
         "description": "Latest Termux version",
