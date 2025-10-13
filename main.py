@@ -89,16 +89,16 @@ apk_list = [
         "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/Sony-LIV/Sony_LIV_Addsfree.apk"
     },
     {
-        "name": "Touch VPN",
-        "description": "Premium Version Unlocked",
-        "category": "VPN & Proxy",
-        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/Touch-VPN/touchvpn-MOD.apk"
-    },
-    {
         "name": "Youtube Premium",
         "description": "Ads Free Version",
         "category": "Media & Video",
         "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/Youtube_Premium/YouTube-Premium.apk"
+    },
+    {
+        "name": "Netflix",
+        "description": "Premium Unlocked",
+        "category": "Entertainment",
+        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/Netflix/Netflix.apk"
     },
     {
         "name": "Lat VPN",
@@ -107,10 +107,16 @@ apk_list = [
         "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/LAT/VPN_Lat.apk"
     },
     {
-        "name": "Netflix",
-        "description": "Premium Unlocked",
-        "category": "Entertainment",
-        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/Netflix/Netflix.apk"
+        "name": "Touch VPN",
+        "description": "Premium Version Unlocked",
+        "category": "VPN & Proxy",
+        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/Touch-VPN/touchvpn-MOD.apk"
+    },
+    {
+        "name": "Secure VPN",
+        "description": "Ads Free Experience",
+        "category": "VPN & Proxy",
+        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/Secure-VPN/Secure-VPN.apk"
     },
 ]
 
