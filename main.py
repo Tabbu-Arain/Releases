@@ -89,6 +89,12 @@ apk_list = [
         "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/2nr-Premium/2nr_premium.xapk"
     },
     {
+        "name": "2nd Line",
+        "description": "Moded XAPK",
+        "category": "Messaging",
+        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/2ndLine/2ndLine.xapk"
+    },
+    {
         "name": "Sony LIV",
         "description": "Premium MOD Ads Free",
         "category": "Entertainment",
