@@ -73,7 +73,7 @@ apk_list = [
     {
         "name": "Multispace",
         "description": "AdsFree Unlocked",
-        "category": "Programing",
+        "category": "App Cloner",
         "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/Multispace/dualspace.apk"
     },
     {
