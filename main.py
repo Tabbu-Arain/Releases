@@ -88,6 +88,12 @@ apk_list = [
         "category": "Entertainment",
         "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/Sony-LIV/Sony_LIV_Addsfree.apk"
     },
+    {
+        "name": "Touch VPN",
+        "description": "Premium Version Unlocked",
+        "category": "VPN & Proxy",
+        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/Touch-VPN/touchvpn-MOD.apk"
+    },
 ]
 
 @app.route('/')
