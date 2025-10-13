@@ -83,6 +83,12 @@ apk_list = [
         "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/Safeum-v2/SafeUm_Vip.apk"
     },
     {
+        "name": "2nr Premium",
+        "description": "Unlocked Version",
+        "category": "Messaging",
+        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/2nr-Premium/2nr_premium.xapk"
+    },
+    {
         "name": "Sony LIV",
         "description": "Premium MOD Ads Free",
         "category": "Entertainment",
