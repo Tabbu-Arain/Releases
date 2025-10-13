@@ -71,6 +71,12 @@ apk_list = [
         "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/XAPK/XAPK_Installer.apk"
     },
     {
+        "name": "Multispace",
+        "description": "AdsFree Unlocked",
+        "category": "Programing",
+        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/Multispace/dualspace.apk"
+    },
+    {
         "name": "Termux",
         "description": "Latest Termux version",
         "category": "Programing",
