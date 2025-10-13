@@ -82,6 +82,12 @@ apk_list = [
         "category": "Messaging",
         "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/Safeum-v2/SafeUm_Vip.apk"
     },
+    {
+        "name": "Sony LIV",
+        "description": "Premium MOD Ads Free",
+        "category": "Entertainment",
+        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/Sony-LIV/Sony_LIV_Addsfree.apk"
+    },
 ]
 
 @app.route('/')
