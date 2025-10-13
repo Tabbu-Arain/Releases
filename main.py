@@ -100,6 +100,12 @@ apk_list = [
         "category": "Media & Video",
         "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/Youtube_Premium/YouTube-Premium.apk"
     },
+    {
+        "name": "Lat VPN",
+        "description": "Updated MOD",
+        "category": "VPN & Proxy",
+        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/LAT/VPN_Lat.apk"
+    },
 ]
 
 @app.route('/')
