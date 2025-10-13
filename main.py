@@ -142,6 +142,12 @@ apk_list = [
         "category": "VPN & Proxy",
         "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/Secure-VPN/Secure-VPN.apk"
     },
+    {
+        "name": "1.1.1.1",
+        "description": "Use Unlimited Wrap+",
+        "category": "VPN & Proxy",
+        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/Wrap-VPN/1.1.1.1-VPN.apk"
+    },
 ]
 
 @app.route('/')
