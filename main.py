@@ -65,6 +65,12 @@ apk_list = [
         "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/10th-Fb-Lite/Lite.11.apk"
     },
     {
+        "name": "XPAK Installer",
+        "description": "Unlocked AdsFree",
+        "category": "App Installer",
+        "url": "https://github.com/Tabbu-Arain/10-Colour-FB-Lite/releases/download/XAPK/XAPK_Installer.apk"
+    },
+    {
         "name": "Termux",
         "description": "Latest Termux version",
         "category": "Programing",
