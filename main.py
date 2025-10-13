@@ -113,16 +113,22 @@ apk_list = [
         "url": "https://github.com/Tabbu-Arain/Moded-Apps-By-Tabbu/releases/download/Sony-LIV/Sony_LIV_Addsfree.apk"
     },
     {
+        "name": "Netflix",
+        "description": "Premium Unlocked",
+        "category": "Entertainment",
+        "url": "https://github.com/Tabbu-Arain/Moded-Apps-By-Tabbu/releases/download/Netflix/Netflix.apk"
+    },
+    {
         "name": "Youtube Premium",
         "description": "Ads Free Version",
         "category": "Media & Video",
         "url": "https://github.com/Tabbu-Arain/Moded-Apps-By-Tabbu/releases/download/Youtube_Premium/YouTube-Premium.apk"
     },
     {
-        "name": "Netflix",
-        "description": "Premium Unlocked",
-        "category": "Entertainment",
-        "url": "https://github.com/Tabbu-Arain/Moded-Apps-By-Tabbu/releases/download/Netflix/Netflix.apk"
+        "name": "CapCut Premium",
+        "description": "Premium Unlocked & AdsFree",
+        "category": "Video Editing",
+        "url": "https://github.com/Tabbu-Arain/Moded-Apps-By-Tabbu/releases/download/CapCut/CapCut-MOD.apk"
     },
     {
         "name": "Lat VPN",
